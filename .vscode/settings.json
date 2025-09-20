@@ -11,10 +11,7 @@
         },
     },
     "pylint.severity": {
-        "error": "Information",
-        "fatal": "Warning",
-        "refactor": "Information",
-        "warning": "Information"
+        "refactor": "Warning",
     },
     "mypy-type-checker.args": [
         "--follow-imports=silent",
@@ -29,5 +26,4 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "makefile.configureOnOpen": false,
 }
